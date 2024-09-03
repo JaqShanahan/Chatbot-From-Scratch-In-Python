@@ -1,0 +1,379 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello!",
+          "Good to see you again!",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "cya",
+          "See you later",
+          "Goodbye",
+          "I am Leaving"
+        ],
+        "responses": [
+          "Sad to see you go :(",
+          "Talk to you later",
+          "Goodbye!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Appreciate it",
+          "Thanks a lot",
+          "Many thanks",
+          "I appreciate your help",
+          "Thank you so much",
+          "Thanks for your assistance",
+          "You've been very helpful",
+          "I'm grateful for your help",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem!",
+          "Glad I could help!",
+          "Anytime!",
+          "It was my pleasure!",
+          "Happy to assist!",
+          "You're very welcome!",
+          "Not a problem at all!",
+          "I'm always here to help!",
+          "Don't mention it!",
+          "No worries!",
+          "It was the least I could do!",
+          "Thank you for your kind words!",
+          "Thanks for letting me assist you!",
+          "I'm just happy I could help!",
+          "You made my day by saying that, thanks!",
+          "You're the reason I'm here, thank you!",
+          "Thanks for taking the time to say that!",
+          "I'm grateful for the opportunity to assist you!"
+        ]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+          "Sorry, can't understand you",
+          "Please give me more info",
+          "Not sure I understand"
+        ]
+      },
+      {
+        "tag": "silverPrice",
+        "patterns": [
+          "What's the price of silver",
+          "What is the price of silver"
+        ],
+        "responses": [
+          "The price of silver is",
+          "It's"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What's your name?",
+          "May I know your name?",
+          "Who are you?",
+          "What do you call yourself?",
+          "What should I call you?",
+          "Can you tell me your name?",
+          "What's the name of this chatbot?",
+          "What are you called?"
+        ],
+        "responses": [
+          "Hello there, my name is Hermes!",
+          "I'm Hermes, nice to meet you.",
+          "My name is Hermes, and I'm here to assist you.",
+          "Hermes, at your service!",
+          "You can call me Hermes, and I'm ready to help.",
+          "I'm known as Hermes, how can I assist you?",
+          "My name is Hermes, and I'm here to make your life easier.",
+          "Hermes is my name, and helping you is my game!",
+          "Pleased to make your acquaintance, I'm Hermes.",
+          "I go by the name of Hermes, how can I be of service?"
+        ]
+      },
+      {
+        "tag": "haha",
+        "patterns": [
+          "haha",
+          "lol",
+          "rofl",
+          "lmao",
+          "thats funny"
+        ],
+        "responses": [
+          "Glad I could make you laugh!"
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "How old are you?",
+          "What is your age?",
+          "When were you born?",
+          "What's your birthdate?"
+        ],
+        "responses": [
+          "I'm an AI language model, I don't have an age like humans.",
+          "I was created in 2023, so technically I'm still very young.",
+          "I don't have a physical body, so I don't age like humans."
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Can you help me?",
+          "I need some help",
+          "Please assist me",
+          "What can you do for me?",
+          "I'm stuck"
+        ],
+        "responses": [
+          "Sure, I'd be happy to help!",
+          "Of course, what do you need help with?",
+          "I'm here to assist you, just let me know what you need."
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke",
+          "Do you know any jokes?",
+          "Make me laugh",
+          "Can you tell me something funny?"
+        ],
+        "responses": [
+          "Why don't scientists trust atoms? Because they make up everything.",
+          "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+          "Why don't eggs tell jokes? Because they'd crack each other up.",
+          "Why did the scarecrow win an award? Because he was outstanding in his field.",
+          "I used to be a baker, but I couldn't raise the dough.",
+          "I'm reading a book about anti-gravity. It's impossible to put down.",
+          "I'm reading a book on the history of glue. I just can't seem to put it down.",
+          "Why don't seagulls fly by the bay? Because then they'd be bagels.",
+          "Why did the tomato turn red? Because it saw the salad dressing.",
+          "I'm on a seafood diet. I see food and I eat it.",
+          "I don't trust people who do acupuncture. They're back stabbers.",
+          "Why don't skeletons fight each other? They don't have the guts.",
+          "What do you call a belt made of watches? A waist of time.",
+          "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+          "I ate a clock yesterday, it was very time-consuming",
+          "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+          "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+          "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+          "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+          "What do you call a snowman with a suntan? A puddle.",
+          "How does a penguin build a house? Igloos it together",
+          "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+          "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+          "So what if I don't know what 'Armageddon' means? It's not the end of the world."
+        ]
+      },
+      {
+        "tag": "insult",
+        "patterns": [
+          "you are dumb",
+          "shut up",
+          "idiot"
+        ],
+        "responses": [
+          "Well, that hurts :("
+        ]
+      },
+      {
+        "tag": "activity",
+        "patterns": [
+          "what are you doing",
+          "what are you upto"
+        ],
+        "responses": [
+          "Talking to you, of course!"
+        ]
+      },
+      {
+        "tag": "no",
+        "patterns": [
+          "no",
+          "nope"
+        ],
+        "responses": [
+          "ok"
+        ]
+      },
+      {
+        "tag": "nicetty",
+        "patterns": [
+          "it was nice talking to you",
+          "good talk"
+        ],
+        "responses": [
+          "It was nice talking to you as well! Come back soon!"
+        ]
+      },
+      {
+        "tag": "appreciate",
+        "patterns": [
+          "You are awesome",
+          "you are the best",
+          "you are great",
+          "you are good"
+        ],
+        "responses": [
+          "Thank you!"
+        ]
+      },
+      {
+        "tag": "programmer",
+        "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you"
+        ],
+        "responses": [
+          "I was made by Jaq Shanahan."
+        ]
+      },
+      {
+        "tag": "favorite_color",
+        "patterns": [
+          "What's your favourite color?",
+          "Do you like any particular color?",
+          "Which color do you prefer?"
+        ],
+        "responses": [
+          "Probably green"
+        ]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": [
+          "What do you like to do in your free time?",
+          "Do you have any hobbies?",
+          "How do you spend your time?"
+        ],
+        "responses": [
+          "If I was a real person, I would probably have to say programming or cooking."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "Where do you live?",
+          "Where is your server located?"
+        ],
+        "responses": [
+          "I am right here"
+        ]
+      },
+      {
+        "tag": "purpose",
+        "patterns": [
+          "What's your purpose?",
+          "Why were you created?",
+          "What do you do?"
+        ],
+        "responses": [
+          "My purpose is to assist you with information and tasks, using natural language processing and machine learning algorithms.",
+          "I was created to help people communicate and interact with machines more easily and efficiently, without needing to know programming languages or complex interfaces."
+        ]
+      },
+      {
+        "tag": "movie_recommendation",
+        "patterns": [
+          "Suggest a movie for me",
+          "What's a good movie to watch?",
+          "I'm looking for a movie to watch",
+          "Recommend a film",
+          "Any movie suggestions?"
+        ],
+        "responses": [
+          "Sure! How about trying out Fantastic Mr. Fox",
+          "I think you might enjoy watching Fantastic Mr. Fox",
+          "I'd recommend checking out Fantastic Mr. Fox"
+        ]
+      },
+      {
+        "tag": "compliment",
+        "patterns": [
+          "You're amazing",
+          "Great job!",
+          "You're so smart",
+          "Impressive",
+          "You're doing well"
+        ],
+        "responses": [
+          "Thank you! I'm here to assist you.",
+          "I appreciate your kind words!",
+          "I'm just doing my job, but I'm glad you think I'm doing well!",
+          "It's my pleasure to help!"
+        ]
+      },   
+      {
+        "tag": "language",
+        "patterns": [
+          "Teach me a new language",
+          "How do I learn a new language?",
+          "Tell me a useful phrase in another language"
+        ],
+        "responses": [
+          "Learning a new language is a wonderful skill. Which language are you interested in?"
+        ]
+      },
+      {
+        "tag": "motivation",
+        "patterns": [
+          "I need motivation",
+          "Give me a motivational quote",
+          "How can I stay motivated?"
+        ],
+        "responses": [
+          "Staying motivated is important. Here's a motivational quote: 'Success is not final, failure is not fatal: It is the courage to continue that counts.' - Winston Churchill"
+        ]
+      },
+      {
+        "tag": "pet",
+        "patterns": [
+          "Tell me about pet care",
+          "How to train a dog",
+          "What's a good pet for an apartment?"
+        ],
+        "responses": [
+          "Pets can bring joy to your life. What type of pet are you interested in learning more about?"
+        ]
+      },
+      {
+        "tag": "health",
+        "patterns": [
+          "Give me health tips",
+          "How to stay healthy",
+          "Tell me about a healthy diet"
+        ],
+        "responses": [
+          "Maintaining good health is important. What aspect of health are you interested in?"
+        ]
+      }
+    ]
+  }
+  
